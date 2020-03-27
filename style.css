@@ -1,0 +1,67 @@
+/* latin */
+@font-face {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cedarville Cursive'), local('Cedarville-Cursive'), url(https://fonts.gstatic.com/s/cedarvillecursive/v11/yYL00g_a2veiudhUmxjo5VKkoqA-B_nuIrpw4cNOTw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background-image: url(img/fondo.jpg);
+    display: flex;
+    font-family: 'Cedarville Cursive';
+    background-repeat: no-repeat;
+}
+
+figure
+ {
+    margin: 0;
+
+}
+img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+.polaroid {
+    background-color: white;
+    width: 160px;
+    height: 220px;
+    padding: 10px 10px 5px 10px;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.polaroid1 {
+    transform: rotate(-30deg);
+    transition: transform 0.5s linear;
+}
+
+.polaroid1:hover {
+    transform: translate(40px,80px) rotate(0) scale(1.2);
+    z-index: 20;
+}
+
+.polaroid2 {
+    transform: rotate(40deg);
+    transition: transform 0.5s linear;
+}
+
+.polaroid2:hover {
+    transform: translate(90px,80px)rotate(0) scale(1.2);
+    z-index: 20;
+}
+
+.polaroid3 {
+    transform: rotate(-42deg);
+    transition: transform 0.5s linear;
+}
+
+.polaroid3:hover {
+    transform: translate(130px,80px)rotate(0) scale(1.2);
+    z-index: 20;
+}
