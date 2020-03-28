@@ -8,10 +8,12 @@
   }
 
 body {
-    background-image: url(img/fondo.jpg);
+    background-image: url(img/wood.jpg);
     display: flex;
     font-family: 'Cedarville Cursive';
     background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
 }
 
 figure
@@ -25,43 +27,124 @@ img {
 
 figcaption {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+}
+
+.container-first {
+    padding-top: 50px;
 }
 
 .polaroid {
     background-color: white;
     width: 160px;
-    height: 220px;
+    height: 200px;
     padding: 10px 10px 5px 10px;
     box-shadow: 1px 1px 3px #333;
+    margin: 10px;
 }
 
 .polaroid1 {
-    transform: rotate(-30deg);
-    transition: transform 0.5s linear;
+    transform: rotate(-10deg);
+    transition: transform 0.2s ease-in; /*box-shadow 0.2 ease-in;*/
 }
 
 .polaroid1:hover {
-    transform: translate(40px,80px) rotate(0) scale(1.2);
+    /*box-shadow: 1px 1px 15px #4a4a4a;*/
+    transform: rotate(0) scale(1.35);
     z-index: 20;
 }
 
 .polaroid2 {
-    transform: rotate(40deg);
-    transition: transform 0.5s linear;
+    transform: rotate(15deg);
+    transition: transform 0.2s ease-in;
 }
 
 .polaroid2:hover {
-    transform: translate(90px,80px)rotate(0) scale(1.2);
+    transform: rotate(0) scale(1.35);
     z-index: 20;
 }
 
 .polaroid3 {
-    transform: rotate(-42deg);
-    transition: transform 0.5s linear;
+    transform: rotate(-20deg);
+    transition: transform 0.2s ease-in;
 }
 
 .polaroid3:hover {
-    transform: translate(130px,80px)rotate(0) scale(1.2);
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid4 {
+    transform: rotate(10deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid4:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid5 {
+    transform: rotate(12deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid5:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid6 {
+    transform: rotate(-18deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid6:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid7 {
+    transform: rotate(17deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid7:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid8 {
+    transform: rotate(-14deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid8:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid9 {
+    transform: rotate(12deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid9:hover {
+    transform: rotate(0) scale(1.35);
+    z-index: 20;
+}
+
+.polaroid10 {
+    transform: rotate(-8deg);
+    transition: transform 0.2s ease-in;
+}
+
+.polaroid10:hover {
+    transform: rotate(0) scale(1.35);
     z-index: 20;
 }
