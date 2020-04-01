@@ -53,20 +53,9 @@ figcaption {
     transition: transform 0.2s ease-in; /*box-shadow 0.2 ease-in;*/
 }
 
-.polaroid1:hover {
-    /*box-shadow: 1px 1px 15px #4a4a4a;*/
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
-}
-
 .polaroid2 {
     transform: rotate(15deg);
     transition: transform 0.2s ease-in;
-}
-
-.polaroid2:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
 }
 
 .polaroid3 {
@@ -74,19 +63,9 @@ figcaption {
     transition: transform 0.2s ease-in;
 }
 
-.polaroid3:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
-}
-
 .polaroid4 {
     transform: rotate(10deg);
     transition: transform 0.2s ease-in;
-}
-
-.polaroid4:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
 }
 
 .polaroid5 {
@@ -94,19 +73,9 @@ figcaption {
     transition: transform 0.2s ease-in;
 }
 
-.polaroid5:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
-}
-
 .polaroid6 {
     transform: rotate(-18deg);
     transition: transform 0.2s ease-in;
-}
-
-.polaroid6:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
 }
 
 .polaroid7 {
@@ -114,19 +83,9 @@ figcaption {
     transition: transform 0.2s ease-in;
 }
 
-.polaroid7:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
-}
-
 .polaroid8 {
     transform: rotate(-14deg);
     transition: transform 0.2s ease-in;
-}
-
-.polaroid8:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
 }
 
 .polaroid9 {
@@ -134,17 +93,22 @@ figcaption {
     transition: transform 0.2s ease-in;
 }
 
-.polaroid9:hover {
-    transform: rotate(0) scale(1.35);
-    z-index: 20;
-}
-
 .polaroid10 {
     transform: rotate(-8deg);
     transition: transform 0.2s ease-in;
 }
 
+.polaroid1:hover,
+.polaroid2:hover,
+.polaroid3:hover,
+.polaroid4:hover,
+.polaroid5:hover,
+.polaroid6:hover,
+.polaroid7:hover,
+.polaroid8:hover,
+.polaroid9:hover,
 .polaroid10:hover {
     transform: rotate(0) scale(1.35);
     z-index: 20;
+    box-shadow: 0px 0px 6px #333;
 }
